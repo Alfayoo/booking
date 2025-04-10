@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark">
+    <div class="card mx-auto text-bg-secondary row mb-3" style="width: 18rem">
+      <header class="bg-success">
+        <h5 class="text-center">Enter details</h5>
+      </header>
+      <form action="register.php" method="POST">
+        <label for="" class="form-label">Full name</label>
+        <input
+          type="text"
+          class="form-control"
+          name="full_name"
+          placeholder="full name" required
+        />
+        <label for="" class="form-label">E-mail</label>
+        <input
+          type="email"
+          class="form-control"
+          name="email"
+          placeholder="email" required
+        />
+        <label for="" class="form-label">Phone No</label>
+        <input
+          type="text"
+          class="form-control"
+          name="phone"
+          placeholder="phone number" required
+        />
+        <br />
+        <button class="btn btn-success">Book</button>
+      </form>
+    </div>
+  </body>
+</html>
